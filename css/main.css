@@ -11,6 +11,26 @@ Gradiente morado: linear-gradient(#76278F, #2B1E66);
   font-family: 'Montserrat', sans-serif;
 }
 
-header {
-  background: linear-gradient(#76278F, #2B1E66);
+.encabezado img {
+  box-sizing: border-box;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+}
+
+li a {
+  z-index: 1000;
+  color: white;
+}
+
+li {
+  width: 100px;
+  text-align: center;
+  float: left;
+}
+
+ul {
+  position: relative;
+  overflow: auto;
+  bottom: 60px;
 }
