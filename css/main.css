@@ -19,8 +19,12 @@ Gradiente morado: linear-gradient(#76278F, #2B1E66);
 }
 
 .encabezado img {
-  width: 100%;
+  width: 50%;
+  position: relative;
+  float: left;
 }
+
+header
 
 li a, button {
   z-index: 1000;
@@ -55,4 +59,20 @@ li button {
   padding: 13px;
   border: 1px solid #fff;
   border-radius: 5px;
+}
+
+
+.amplify{
+  position: relative;
+  float: left;
+}
+
+.good{
+  position: relative;
+  float: left;
+}
+
+.june{
+  position: relative;
+  float: right;
 }
