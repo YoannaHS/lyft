@@ -7,3 +7,10 @@ Título del formulario: #352384;
 Texto del formulario: #728099;
 Gradiente morado: linear-gradient(#76278F, #2B1E66);
 */
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background: linear-gradient(#76278F, #2B1E66);
+}
