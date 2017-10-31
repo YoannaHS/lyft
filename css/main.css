@@ -34,3 +34,19 @@ ul {
   overflow: auto;
   bottom: 60px;
 }
+
+
+.amplify{
+  position: relative;
+  float: left;
+}
+
+.good{
+  position: relative;
+  float: left;
+}
+
+.june{
+  position: relative;
+  float: right;
+}
