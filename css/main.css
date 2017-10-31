@@ -24,7 +24,9 @@ Gradiente morado: linear-gradient(#76278F, #2B1E66);
   float: left;
 }
 
-header
+header {
+  background: linear-gradient(#76278F, #2B1E66);
+}
 
 li a, button {
   z-index: 1000;
@@ -75,4 +77,8 @@ li button {
 .june{
   position: relative;
   float: right;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> f40542792696482613d906a28301a0c2de702469
