@@ -16,8 +16,13 @@ Gradiente morado: linear-gradient(#76278F, #2B1E66);
 }
 
 .encabezado img {
-  width: 100%;
-  
+  width: 50%;
+  position: relative;
+  float: left;
+}
+
+header {
+  background: linear-gradient(#76278F, #2B1E66);
 }
 
 nav li a, button {
@@ -81,8 +86,16 @@ nav li button {
 .june{
   position: relative;
   float: right;
+<<<<<<< HEAD
 }
 
 footer{
 
 }
+=======
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> f40542792696482613d906a28301a0c2de702469
+>>>>>>> 6b77b04015a1fbc46db18a3258e93b6a86ce179a
