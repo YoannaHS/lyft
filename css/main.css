@@ -7,14 +7,14 @@ Título del formulario: #352384;
 Texto del formulario: #728099;
 Gradiente morado: linear-gradient(#76278F, #2B1E66);
 */
+
 * {
   font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
 .encabezado img {
-  box-sizing: border-box;
-  margin-left: 0px;
-  margin-right: 0px;
   width: 100%;
 }
 
