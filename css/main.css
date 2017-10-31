@@ -23,6 +23,7 @@ Gradiente morado: linear-gradient(#76278F, #2B1E66);
 
 header {
   background: linear-gradient(#76278F, #2B1E66);
+  height: 700px;
 }
 
 nav li a, button {
@@ -69,7 +70,7 @@ nav li button {
 
 .main button{
     border: #fff;
-    background-color: #ff00bf; 
+    background-color: #ff00bf;
 }
 
 
@@ -86,16 +87,8 @@ nav li button {
 .june{
   position: relative;
   float: right;
-<<<<<<< HEAD
 }
 
-footer{
-
+.phone h3{
+  color: #fff;
 }
-=======
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> f40542792696482613d906a28301a0c2de702469
->>>>>>> 6b77b04015a1fbc46db18a3258e93b6a86ce179a
