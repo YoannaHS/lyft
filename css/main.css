@@ -12,10 +12,7 @@ Gradiente morado: linear-gradient(#76278F, #2B1E66);
   font-family: 'Montserrat', sans-serif;
   margin: 0px;
   padding: 0px;
-<<<<<<< HEAD
   box-sizing: border-box;
-=======
->>>>>>> d4e21a96ba6a18b3779208fbca71f25ac43b54f9
 }
 
 .encabezado img {
@@ -23,7 +20,7 @@ Gradiente morado: linear-gradient(#76278F, #2B1E66);
   
 }
 
-li a, button {
+nav li a, button {
   z-index: 1000;
   color: white;
   cursor: pointer;
@@ -32,30 +29,42 @@ li a, button {
   text-decoration: none;
 }
 
-li a:hover {
+nav li a:hover {
   color: #ff00bf;
 }
 
-li {
+ nav li {
   width: 100px;
   text-align: center;
   float: left;
   list-style: none;
 }
 
-ul {
+nav ul {
   position: relative;
   overflow: auto;
   bottom: 690px;
   margin-left: 850px;
 }
 
-li button {
+nav li button {
   background: linear-gradient(#76278F, #2B1E66);
   color: #fff;
   padding: 13px;
   border: 1px solid #fff;
   border-radius: 5px;
+}
+
+.main{
+  position: relative;
+  float: right;
+  width: 50%;
+  color: #76278f;
+}
+
+.main button{
+    border: #fff;
+    background-color: #ff00bf; 
 }
 
 
@@ -72,4 +81,8 @@ li button {
 .june{
   position: relative;
   float: right;
+}
+
+footer{
+
 }
