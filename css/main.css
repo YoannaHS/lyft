@@ -7,88 +7,9 @@ Título del formulario: #352384;
 Texto del formulario: #728099;
 Gradiente morado: linear-gradient(#76278F, #2B1E66);
 */
-
 * {
+  box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
-}
-
-.encabezado img {
-  width: 50%;
-  position: relative;
-  float: left;
-}
-
-header {
-  background: linear-gradient(#76278F, #2B1E66);
-  height: 700px;
-}
-
-nav li a, button {
-  z-index: 1000;
-  color: white;
-  cursor: pointer;
-  font-size: 18px;
-  font-weight: 300;
-  text-decoration: none;
-}
-
-nav li a:hover {
-  color: #ff00bf;
-}
-
- nav li {
-  width: 100px;
-  text-align: center;
-  float: left;
-  list-style: none;
-}
-
-nav ul {
-  position: relative;
-  overflow: auto;
-  bottom: 690px;
-  margin-left: 850px;
-}
-
-nav li button {
-  background: linear-gradient(#76278F, #2B1E66);
-  color: #fff;
-  padding: 13px;
-  border: 1px solid #fff;
-  border-radius: 5px;
-}
-
-.main{
-  position: relative;
-  float: right;
-  width: 50%;
-  color: #76278f;
-}
-
-.main button{
-    border: #fff;
-    background-color: #ff00bf;
-}
-
-
-.amplify{
-  position: relative;
-  float: left;
-}
-
-.good{
-  position: relative;
-  float: left;
-}
-
-.june{
-  position: relative;
-  float: right;
-}
-
-.phone h3{
-  color: #fff;
 }
