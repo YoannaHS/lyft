@@ -76,14 +76,25 @@ header {
   position: absolute;
   bottom: 300px;
   background-color: #fff;
-  left: 871px;
+  margin-left: 70%;
   padding: 80px;
-  width: 45%;
+  width: 30%;
+  margin-bottom: -150px;
 }
 
+.phone img {
+  position: absolute;
+  margin-left: 150%;
+  display: flex;
+  z-index: 10;
+  bottom: 30px;
+}
 
 .phone{
   position: absolute;
+  color: white;
+  top: 100%;
+  text-align: left;
 }
 
 .phone figure{
@@ -97,6 +108,30 @@ header {
   max-width: 100%;
 }
 
+#firstvideo {
+  position: absolute;
+  width: 25%;
+  margin-top: 3%;
+}
+
+#video1 {
+  margin-left: 33.2%;
+}
+
+#secondvideo {
+  position: absolute;
+  width: 25%;
+  margin-left: 70%;
+}
+
+#thirdvideo {
+  position: absolute;
+  width: 25%;
+}
+
+#video3 {
+  margin-left: 33.2%
+}
 
 footer{
   position: relative;
